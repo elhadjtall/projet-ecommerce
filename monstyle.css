@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@600&family=Roboto&family=Rubik:wght@700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 15px;
+    cursor: pointer;
+    color: red;
+}
+nav .onglets input{
+    margin: 12px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color:azure;
+    outline: none;
+}
